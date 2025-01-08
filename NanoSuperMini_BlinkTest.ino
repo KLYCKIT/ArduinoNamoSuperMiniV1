@@ -8,6 +8,8 @@
 
   Hacked from the Arduino "Blink" example and the Adafruit "Simple NeoPixel test" sketch.
 
+  For this sketch you will need the "Adafruit NeoPixel by Adafruit" Library installed in your Arduino software.
+
   The NANO V3.0 / Nano SuperMini Blink_Test board is from Aliexpress:
   https://www.aliexpress.com/item/1005006468917096.html
   It works with a CH340 USB-Serial driver.
@@ -16,6 +18,7 @@
      D3 -- Green -- Arduino Pin 0
      D4 -- Blue  -- Arduino Pin 1
      D2 -- Green -- Arduino Pin 13 -- LED_BUILTIN
+  It also has 3 NeoPixel LEDs connected to Arduino Pin 2.
 
   Blink:
   modified 8 May 2014
