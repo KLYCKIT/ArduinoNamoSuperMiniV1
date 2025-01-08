@@ -25,3 +25,5 @@ This test sketch does the following:
 * Blink the Green LED (Arduino Pin 13 -- LED_BUILTIN -- marked "D2" on the PCB), On for 1/2 sec, Off for 1/2 sec  
 * Light up the 3 NeoPixels connected to Arduino Pin 2 using code from the Adafruit "Simple NeoPixel test" sketch  
   
+For this sketch you will need the "Adafruit NeoPixel by Adafruit" Library installed in your Arduino software.  
+  
