@@ -1,4 +1,4 @@
-# NANO V3.0 / Nano SuperMini Blink_Test  
+# NANO V3.0 / Nano SuperMini  
   
 The NANO V3.0 / Nano SuperMini Blink_Test board is from Aliexpress:  
 https://www.aliexpress.com/item/1005006468917096.html  
@@ -11,6 +11,10 @@ It has 3 single-color LEDs on the PCB:
 * D4 -- Blue  -- Arduino Pin 1 (active Low)  
 * D2 -- Green -- Arduino Pin 13 -- LED_BUILTIN (active High)  
 It also has 3 NeoPixel LEDs connected to Arduino Pin 2.  
+
+## Blink_Test for Nano SuperMini  
+  
+This Blink_Test shows how simple it is to control the 3 single-color LEDs on the board, plus the 3 NeoPixel LEDs on the board.  
   
 This example code is in the public domain.  
 I hacked the code by combining "Blink" and "Simple NeoPixel test" sketches:  
