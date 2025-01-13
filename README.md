@@ -1,16 +1,23 @@
 # NANO V3.0 / Nano SuperMini  
   
-The NANO V3.0 / Nano SuperMini Blink_Test board is from Aliexpress:  
-https://www.aliexpress.com/item/1005006468917096.html  
-It works with a CH340 USB-Serial driver.  
-The board I tried used "Arduino Nano" with "ATmege328P (Old Bootloader)".  
 ![Nano SuperMini](https://github.com/user-attachments/assets/f04cb68f-99c4-4ba4-b45e-f3d4c473631b)  
   
-It has 3 single-color LEDs on the PCB:  
+The Nano SuperMini has 3 single-color LEDs on the PCB:  
 * D3 -- Green -- Arduino Pin 0 (active Low)  
 * D4 -- Blue  -- Arduino Pin 1 (active Low)  
 * D2 -- Green -- Arduino Pin 13 -- LED_BUILTIN (active High)  
 It also has 3 NeoPixel LEDs connected to Arduino Pin 2.  
+
+The NANO V3.0 / Nano SuperMini board is from Aliexpress:  
+https://www.aliexpress.com/item/1005006468917096.html  
+
+## Setting Up the Nano SuperMini on the Arduino Software
+Depending on your Operating System, you may need to download and install a driver for the CH340 USB-Serial chip on the board.  
+  
+Then, under Tools --> Board, choose: "Arduino Nano".  
+Under Tools --> Processor, the ones I bought all work with: "ATmege328P (Old Bootloader)".  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If this doesn't work for you, try "ATmega328P"  
+  
 
 ## Blink_Test for Nano SuperMini  
   
