@@ -27,3 +27,8 @@ This test sketch does the following:
   
 For this sketch you will need the "Adafruit NeoPixel by Adafruit" Library installed in your Arduino software.  
   
+## KiCad Footprint  
+
+I have created a footprint for KiCad for this nice little board.  
+It is included in this repository.  
+  
