@@ -43,3 +43,8 @@ For this sketch you will need the "Adafruit NeoPixel by Adafruit" Library instal
 I have created a footprint for KiCad for this nice little board.  
 It is included in this repository.  
   
+## 3D Model for use with KiCad  
+
+I have created a 3D model for use in KiCad for this nice little board.  
+It is included in this repository.  
+  
