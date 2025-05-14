@@ -1,15 +1,10 @@
 # NANO V3.0 / Nano SuperMini  
-  
-![Nano SuperMini](https://github.com/user-attachments/assets/f04cb68f-99c4-4ba4-b45e-f3d4c473631b)  
-  
+    
 The Nano SuperMini has 3 single-color LEDs on the PCB:  
 * D3 -- Green -- Arduino Pin 0 (active Low)  
 * D4 -- Blue  -- Arduino Pin 1 (active Low)  
 * D2 -- Green -- Arduino Pin 13 -- LED_BUILTIN (active High)  
-It also has 3 NeoPixel LEDs connected to Arduino Pin 2.  
-
-The NANO V3.0 / Nano SuperMini board is from Aliexpress:  
-https://www.aliexpress.com/item/1005006468917096.html  
+It also has 3 NeoPixel LEDs connected to Arduino Pin 2.   
 
 ## Setting Up the Nano SuperMini on the Arduino Software
 Depending on your Operating System, you may need to download and install a driver for the CH340 USB-Serial chip on the board.  
